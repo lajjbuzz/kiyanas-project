@@ -9,8 +9,8 @@ const routes = [
   {
     name: "DefaultContainer",
     component: DefaultContainer,
-    path: 'DefaultContainer',
-    redirect: '/',
+    path: '/',
+    redirect: '/Home',
     children: [
       {
         path: '/',
